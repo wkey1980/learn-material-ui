@@ -4,12 +4,12 @@ import React from 'react'
 import './styles/App.Styles.css'
 
 // Import Material UI Components
-import { Button, ButtonGroup, Checkbox, FormControlLabel } from '@material-ui/core'
+import { Button, ButtonGroup, Checkbox, FormControlLabel, CssBaseline } from '@material-ui/core'
 
 // Import Icons
 import SaveIcon from '@material-ui/icons/Save';
 import DeleteIcon from '@material-ui/icons/Delete';
-
+import Navbar from '../Navbar/index';
 
 
 
@@ -19,6 +19,9 @@ function CheckboxExample() {
 
 	return (
 		<div>
+
+			<CssBaseline />
+			<Navbar />
 			{/* <h1>Checkbox</h1> */}
 			<FormControlLabel
 				control={
@@ -34,6 +37,7 @@ function CheckboxExample() {
 				}
 				label="Checkbox"
 			/>
+
 		</div>
 	)
 }
