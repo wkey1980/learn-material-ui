@@ -11,7 +11,7 @@ const Navbar = () => {
                 <Toolbar>
                     <IconButton aria-aria-label="app" color="inherit">
                         <Menu>
-                            
+
                         </Menu>
                     </IconButton>
                     <Typography variant="h6">Test Material UI app Bar</Typography>
